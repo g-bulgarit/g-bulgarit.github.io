@@ -17,8 +17,6 @@ about = "SW & System Engineer at Vayyar Imaging"
 menu = [
 { text = "Home", link = "/"},
 { text = "Projects", link = "/projects"},
-{ text = "Education", link = "/education"},
-{ text = "About Me", link = "/about"},
 ]
 
 social = [

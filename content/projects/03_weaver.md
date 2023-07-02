@@ -1,8 +1,9 @@
 +++
 title = "Weaver"
+date = "2020-11-26"
 
 [extra]
-image = "/image_location"
+# image = 
 link = "https://github.com/g-bulgarit/Weaver"
 technologies = ["Python", "C", "Mechanical Design"]
 +++

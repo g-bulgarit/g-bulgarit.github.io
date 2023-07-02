@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 	<head>
+	<link rel="stylesheet" href="public/mystyles.css">
 		<meta charset="utf-8">
         <title> {{ config.title }} </title>
     {% if config.extra.bundled is matching("^[Tt]rue") %}
@@ -20,6 +20,11 @@
 
     }
 
+	.noHover{
+    	background-color: unset !important;
+    	color: unset !important;
+	}
+
     ion-icon {
       position:absolute;
       top:-8%; 
@@ -28,16 +33,16 @@
     </style>
 	</head>
 
-	<body>
+	<body class="has-background-dark">
 
 		<section class="section">
-			<div class="container">
+			<div class="container has-background-dark">
 
-				<nav class="navbar" role="navigation" aria-label="main navigation">
-					<div id="navbar" class="navbar-menu is-active">
-						<div class="navbar-start has-text-centered">
+				<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+					<div id="navbar" class="navbar-menu is-active has-background-dark has-text-white">
+						<div class="navbar-start has-text-centered has-text-white">
 						{% for item in config.extra.menu %}
-							<a class="navbar-item" href="{{item.link}}">
+							<a class="navbar-item has-text-white" href="{{item.link}}">
 								{{item.text}}
 							</a>
 						{% endfor %}
@@ -45,25 +50,25 @@
 					</div>
 				</nav>
 				{% block content %} {% endblock %}
-		<footer class="footer">
-			<div class="content has-text-centered">
-				<div class="columns is-centered is-vcentered">
-					{% for index in config.extra.social %}
-					<div class="column">
-						<a href="{{ index.link }}">
-								<span class="ion-fix">
-									<ion-icon name="{{ index.icon }}" class="icon"></ion-icon>
-								</span>
-								<b>{{ index.user }}</b>
-						</a>
+			<footer class="footer has-background-dark"">
+				<div class="content has-text-centered has-text-white">
+					<div class="columns is-centered is-vcentered has-text-white">
+						{% for index in config.extra.social %}
+						<div class="column">
+							<a href="{{ index.link }}">
+									<span class="ion-fix">
+										<ion-icon name="{{ index.icon }}" class="icon has-text-white"></ion-icon>
+									</span>
+									<span class="has-text-white">
+										<b>{{ index.user }}</b>
+									</span>
+							</a>
+						</div>
+						{% endfor %}
 					</div>
-					{% endfor %}
 				</div>
-			</div>
-		</footer>
-			</div>
-
+			</footer>
+		</div>
 		</section>
-
 	</body>
 </html>

@@ -1,8 +1,9 @@
 +++
 title = "Optical MNIST Classifer by Diffraction Optimization"
+date = "2023-01-30"
 
 [extra]
-image = "/image_location"
+# image = "/image_location"
 link = "https://github.com/g-bulgarit/Diffraction-Optimization"
 technologies = ["Python", "Optimization", "Simulated Annealing"]
 +++

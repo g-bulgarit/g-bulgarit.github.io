@@ -1,20 +1,31 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h1 class="hero is-link">
-	<div class="hero-body has-text-link-dark">
+<h1 class="hero is-link is-halfheight">
+	<div class="hero-body has-background-grey-dark">
 		<div class="container has-text-centered">
-			<h1 class="title is-size-1">
-				Hello,
+			<h1 class="title is-size-1 has-text-warning">
+				Hey,
 			</h1>
-			<h2 class="subtitle is-size-2">
+			<h2 class="subtitle is-size-1 has-text-warning">
                 I'm {{ config.extra.author }}.
 			</h2>
-			<h3 class="subtitle is-size-3">
+			<h3 class="subtitle is-size-3 has-text-warning">
 				I'm a {{ config.extra.about }}.
 			</h3>
 		</div>
 	</div>
 </h1>
+
+<div class="container has-text-white" style="margin-top: 3em;">
+	<h3 class="subtitle is-size-4 has-text-white">
+		Electronics engineer with experience in software, electronics and mechanical design.
+		<br>
+		Graduated from Tel-Aviv University with a B.E in Electrical and Electronics Engineering.
+		<br>
+		<br>
+		I enjoy breaking things and (<i>sometimes</i>) putting them back together.
+	</h3>
+</div>
 
 {% endblock content %}
