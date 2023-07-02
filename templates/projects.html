@@ -22,18 +22,18 @@
 					<br>
 					<div class="columns is-centered is-vcentered has-text-centered">
 						<figure class="image">
-              {% if index.extra.image is defined %}
-                <img src="{{index.extra.image}}" style="margin: 4px" alt="project logo">
-			  {% else %}
+              				{% if index.extra.image is defined %}
+                			<img src="{{index.extra.image}}" alt="project logo">
+			  				{% else %}
 
-              {% endif %}
+              				{% endif %}
 						</figure>
 					</div>
 				</div>
 				<div class="card-content has-background-grey-dark">
 					<div class="content" style="font-family: Abel;">
-						<h3><a href="{{index.extra.link}}" class="has-text-warning" style="font-family: Abel;"> {{ index.title }} </a></h3>
-						<span class="has-text-white" style="margin: 2px" style="font-family: Abel;">
+						<h3><a href="{{index.extra.link}}" class="has-text-warning" style="font-family: Abel; margin-top: 10rem;"> {{ index.title }} </a></h3>
+						<span class="has-text-white" style="font-family: Abel;">
 							<p> {{ index.content | safe }} </p>
 						</span>
 						<div class="columns">

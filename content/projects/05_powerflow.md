@@ -3,7 +3,7 @@ title = "pyPowerFlow"
 date = "2022-05-29"
 
 [extra]
-# image = "/image_location"
+image = "https://private-user-images.githubusercontent.com/45943524/250391199-ba1a68ac-df4b-4a10-babb-824bd806254f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg4MzIyNDAwLCJuYmYiOjE2ODgzMjIxMDAsInBhdGgiOiIvNDU5NDM1MjQvMjUwMzkxMTk5LWJhMWE2OGFjLWRmNGItNGExMC1iYWJiLTgyNGJkODA2MjU0Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNzAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDcwMlQxODIxNDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMTBjNTVhNzM3ZTFjYTUwYWFkYzU4M2M0MDM1ZmVhZDc0M2I2YTUzZmMzYjhiZDRiYWE3NzI1ZGM3NDZlNWExJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.SQRz6OaABYx4O1waWQl5HHFPop7TmXiCGwJRS6N0Fwk"
 link = "https://github.com/g-bulgarit/pyPowerFlow"
 technologies = ["Python", "Optimizaion"]
 +++
