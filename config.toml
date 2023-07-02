@@ -1,0 +1,27 @@
+# The URL the site will be built for
+# base_url = "https://g-bulgarit.github.io"
+base_url = "https://example.com"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+
+[extra]
+bundled = "true"
+author = "Alon Budker"
+about = "SW & System Engineer at Vayyar Imaging"
+
+menu = [
+{ text = "Home", link = "/"},
+{ text = "Projects", link = "/projects"},
+{ text = "Education", link = "/education"},
+{ text = "About Me", link = "/about"},
+]
+
+social = [
+{ user = "Linkedin", link = "https://www.linkedin.com/in/alon-budker/", icon = "logo-linkedin"},
+{ user = "Github", link = "https://github.com/g-bulgarit", icon = "logo-github"},
+]
