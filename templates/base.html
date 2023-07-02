@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
 	<link rel="stylesheet" href="public/mystyles.css">
 		<meta charset="utf-8">
         <title> {{ config.title }} </title>
@@ -12,7 +13,7 @@
       <link rel="stylesheet" href="/styles/bulma.min.css" async>
       <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js" async></script>
     {% endif %}
-		<link rel="icon" type="image/png" href="/favicon.png">
+		<link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/45943524?v=4">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
     .ion-fix {
@@ -33,13 +34,13 @@
     </style>
 	</head>
 
-	<body class="has-background-dark">
+	<body style="background: linear-gradient(rgb(58, 58, 58), rgb(22, 22, 22));">
 
 		<section class="section">
 			<div class="container has-background-dark">
 
 				<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-					<div id="navbar" class="navbar-menu is-active has-background-dark has-text-white">
+					<div id="navbar" class="navbar-menu is-active has-background-dark has-text-white" style="font-family: Abel; font-size: large;">
 						<div class="navbar-start has-text-centered has-text-white">
 						{% for item in config.extra.menu %}
 							<a class="navbar-item has-text-white" href="{{item.link}}">
@@ -59,7 +60,7 @@
 									<span class="ion-fix">
 										<ion-icon name="{{ index.icon }}" class="icon has-text-white"></ion-icon>
 									</span>
-									<span class="has-text-white">
+									<span class="has-text-white" style="font-family: Abel;">
 										<b>{{ index.user }}</b>
 									</span>
 							</a>

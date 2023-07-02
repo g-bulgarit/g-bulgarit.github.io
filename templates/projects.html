@@ -4,7 +4,7 @@
 <section class="hero is-link is-small">
 	<div class="hero-body has-background-grey-dark">
 		<div class="container has-text-centered">
-			<h1 class="title has-text-warning">
+			<h1 class="title has-text-warning" style="font-family: Abel;">
 				{{ section.title }}
 			</h1>
 		</div>
@@ -31,14 +31,14 @@
 					</div>
 				</div>
 				<div class="card-content has-background-grey-dark">
-					<div class="content">
-						<h3><a href="{{index.extra.link}}" class="has-text-warning"> {{ index.title }} </a></h3>
-						<span class="has-text-white" style="margin: 2px">
+					<div class="content" style="font-family: Abel;">
+						<h3><a href="{{index.extra.link}}" class="has-text-warning" style="font-family: Abel;"> {{ index.title }} </a></h3>
+						<span class="has-text-white" style="margin: 2px" style="font-family: Abel;">
 							<p> {{ index.content | safe }} </p>
 						</span>
 						<div class="columns">
 							{% for tech in index.extra.technologies %}
-							<span class="tag is-warning" style="margin: 4px"> {{ tech }} </span>
+							<span class="tag is-warning" style="margin: 4px; font-family: Abel; font-weight: 900; font-size: medium;"> {{ tech }} </span>
 							{% endfor %}
 						</div>
 					</div>
