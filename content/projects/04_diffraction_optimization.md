@@ -3,7 +3,7 @@ title = "Optical MNIST Classifer by Diffraction Optimization"
 date = "2023-01-30"
 
 [extra]
-image = "https://private-user-images.githubusercontent.com/45943524/250391801-5547dd61-d48b-4937-a69d-b367e11741b0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg4MzIzMjkxLCJuYmYiOjE2ODgzMjI5OTEsInBhdGgiOiIvNDU5NDM1MjQvMjUwMzkxODAxLTU1NDdkZDYxLWQ0OGItNDkzNy1hNjlkLWIzNjdlMTE3NDFiMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNzAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDcwMlQxODM2MzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYTdhMzUyODA2NGNhNmNkZjI1OTM0YjA2ZmRlZDJhODczMTM2ZDZkODcxYmNiNGJmNGIyNGEzNWRhYWJlNDUxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.G2jpXon5TGtyhXgtsXb-2Hp-gsu1tghJAGze9m-OWW0"
+image = "/optics_optimization.png"
 link = "https://github.com/g-bulgarit/Diffraction-Optimization"
 technologies = ["Python", "Optimization", "Simulated Annealing"]
 +++
