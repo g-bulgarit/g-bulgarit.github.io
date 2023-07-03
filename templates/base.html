@@ -34,13 +34,13 @@
     </style>
 	</head>
 
-	<body style="background: linear-gradient(rgb(58, 58, 58), rgb(22, 22, 22));">
+	<body style="background: linear-gradient(#2C5364, #203A43, #0F2027);">
 
 		<section class="section">
-			<div class="container has-background-dark">
+			<div class="container" style="background: #203A43;">
 
-				<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-					<div id="navbar" class="navbar-menu is-active has-background-dark has-text-white" style="font-family: Abel; font-size: large;">
+				<nav class="navbar is-transparent" role="navigation" aria-label="main navigation" style="background: #203A43;">
+					<div id="navbar" class="navbar-menu is-active has-text-white" style="font-family: Abel; font-size: x-large; margin-left: 1em;">
 						<div class="navbar-start has-text-centered has-text-white">
 						{% for item in config.extra.menu %}
 							<a class="navbar-item has-text-white" href="{{item.link}}">
@@ -51,17 +51,14 @@
 					</div>
 				</nav>
 				{% block content %} {% endblock %}
-			<footer class="footer has-background-dark"">
+			<footer class="footer" style="background: #203A43;">
 				<div class="content has-text-centered has-text-white">
 					<div class="columns is-centered is-vcentered has-text-white">
 						{% for index in config.extra.social %}
 						<div class="column">
 							<a href="{{ index.link }}">
 									<span class="ion-fix">
-										<ion-icon name="{{ index.icon }}" class="icon has-text-white"></ion-icon>
-									</span>
-									<span class="has-text-white" style="font-family: Abel;">
-										<b>{{ index.user }}</b>
+										<ion-icon name="{{ index.icon }}" class="icon has-text-white" style="size: large;"></ion-icon>
 									</span>
 							</a>
 						</div>

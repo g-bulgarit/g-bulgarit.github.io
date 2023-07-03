@@ -13,7 +13,7 @@ build_search_index = false
 [extra]
 bundled = "true"
 author = "Alon Budker"
-about = "SW & System Engineer at Vayyar Imaging"
+about = "Sofware & System Engineer"
 
 menu = [
 { text = "Home", link = "/"},
@@ -22,5 +22,6 @@ menu = [
 
 social = [
 { user = "Linkedin", link = "https://www.linkedin.com/in/alon-budker/", icon = "logo-linkedin"},
+{ user = "Email", link = "mailto:alonio6@gmail.com", icon = "mail-outline"},
 { user = "Github", link = "https://github.com/g-bulgarit", icon = "logo-github"},
 ]
