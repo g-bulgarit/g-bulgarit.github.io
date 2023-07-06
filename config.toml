@@ -2,7 +2,8 @@
 # base_url = "https://g-bulgarit.github.io"
 base_url = "https://alonbudker.me"
 
-
+title = "Alon Budker: Portfolio"
+description = "Portfolio and personal projects."
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
